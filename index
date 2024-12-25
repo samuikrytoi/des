@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Днём Рождения, Юличка!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            color: #ff6f61;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e55b4d;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>С Днём Рождения, Юлия! 🎉</h1>
+    </header>
+    <main>
+        <p>Юлия, сегодня твой особенный день, и этот сайт создан специально для тебя!</p>
+        <button onclick="alert('Ты самая прекрасная! ❤️')">Нажми на меня!</button>
+        <button onclick="alert('Желаю тебе счастья и радости! 🌸')">Нажми на меня!</button>
+        <button onclick="alert('Ты заслуживаешь всего самого лучшего! ✨')">Нажми на меня!</button>
+    </main>
+    <footer>
+        <p>С любовью, от Давида</p>
+    </footer>
+</body>
+
+</html>
